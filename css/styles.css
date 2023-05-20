@@ -1,0 +1,125 @@
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: #FF7043;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 40px;
+}
+
+.font-weight-bold{
+  color: #FF7043;
+}
+
+.cajas{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.caj{
+  width: 360px;
+  height: 520px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.boton{
+  text-decoration: none;
+  background-color: #FF5722;
+  padding: 20px;
+  color: white;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.boton:hover{
+  background-color: black;
+}
+
+ a{
+  text-decoration: none!important;
+}
+
+.galeria {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.fotos {
+  display: flex;
+  width: 1200px;
+  height: 430px;
+}
+
+.fotos img{
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+
+.fotos img:hover{
+  width: 300px;
+  opacity: 1;
+}
+
+.foot{
+  width: 100%;
+  background-color: #FF5722;
+  margin-top: 40px;
+  display: flex;
+  padding: 15px;
+  box-sizing: border-box;
+  align-items: center;
+  font-size: 10pt;
+}
+
+.redes{
+  justify-content: flex-end;
+}
+
+.redes img{
+  margin-left: 10px;
+}
+
+.nave2{
+  width: 90%;
+}
+
+.nave2 a{
+  text-decoration: none!important;
+  color: white;
+  padding-left: 45px;
+}
+
+.nave2 a:hover{
+  color: black;
+  font-weight: bold;
+}
+
+.btn-hover-dark:hover {
+  background-color: #FF7043;
+  color: white;
+}
+
+.imagenf img:hover{
+  transform: scale(1.1);
+}
+
+.card-body2{
+  height: 200px;
+  margin: 20px;
+}
+
+.card-body3{
+  height: 400px;
+  margin: 20px;
+}
